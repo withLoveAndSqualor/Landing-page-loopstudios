@@ -1,4 +1,4 @@
-#** Landing-page-loopstudios**
+# ** Landing-page-loopstudios**
 Версия 0.0.1
 
 ## О проекте:
