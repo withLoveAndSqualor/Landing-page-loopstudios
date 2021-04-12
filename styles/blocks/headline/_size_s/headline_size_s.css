@@ -1,0 +1,16 @@
+.headline_size_s {
+  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .headline_size_s {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,43 @@
+.about-vr__text-container {
+  position: absolute;
+  box-sizing: border-box;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  /*margin-top: 183px;*/
+  background-color: #FFFFFF;
+  padding-top: 8.64%;
+  padding-left: 8.64%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  /*width: 541px;*/
+  max-width: 541px;
+  min-width: none;
+}
+
+@media screen and (max-width: 1075px) {
+  .about-vr__text-container {
+    position: unset;
+    padding: 48px 0 0;
+    margin-left: 48px;
+    margin-right: 48px;
+    align-items: center;
+    justify-content:unset;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-vr__text-container {
+    width: 279px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .about-vr__text-container {
+    max-width: 236px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

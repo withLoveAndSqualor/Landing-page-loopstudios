@@ -1,0 +1,10 @@
+.footer__menu-item:not(:last-child) {
+  padding-right: 8.42%;
+} 
+
+@media screen and (max-width: 959px) {
+  .footer__menu-item:not(:last-child) {
+    padding-right: 0;
+    padding-bottom: 16px;
+  }
+}

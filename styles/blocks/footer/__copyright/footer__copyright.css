@@ -1,0 +1,24 @@
+.footer__copyright {
+  align-self:flex-end;
+  font-family: 'Alata', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;  
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 959px) {
+  .footer__copyright {
+    align-self: unset;
+    width: 272px;
+  }
+}
+
+/*@media screen and (max-width: 370px) {
+  .footer__copyright {
+    width: unset;
+  }
+}*/

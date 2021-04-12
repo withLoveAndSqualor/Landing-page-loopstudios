@@ -1,0 +1,14 @@
+.creations__button_bottom {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  .creations__button_bottom {
+    display:unset;
+    width: 157px;
+    max-width: 157px;
+    height: 40px;
+    justify-self:center;
+    margin-top: 34px;
+  }
+}

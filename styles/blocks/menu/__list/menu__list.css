@@ -1,0 +1,6 @@
+.menu__list {
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}

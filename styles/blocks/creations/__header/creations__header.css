@@ -1,0 +1,12 @@
+.creations__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px; 
+}
+
+@media screen and (max-width: 680px) {
+  .creations__header {
+    justify-content: center;
+    padding-bottom: 48px;
+  }
+}

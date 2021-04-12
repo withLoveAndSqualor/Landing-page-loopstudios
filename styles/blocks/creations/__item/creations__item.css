@@ -1,0 +1,21 @@
+.creations__item {
+  height: 450px;
+  /*max-height: 450px;*/
+  /*width: 256px;*/
+  /*min-width: 256px;*/
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 640px) {
+  .creations__item {
+    padding: 20px;
+    height: 120px;
+  }
+}

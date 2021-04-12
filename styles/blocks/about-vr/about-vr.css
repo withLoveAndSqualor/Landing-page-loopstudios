@@ -1,0 +1,23 @@
+@import url(./__pic/about-vr__pic.css);
+@import url(./__text-container/about-vr__text-container.css);
+@import url(./__headline/about-vr__headline.css);
+@import url(./__paragaraph/about-vr__paragaraph.css);
+
+.about-vr {
+  width: 100%;
+  position: relative;
+  margin-bottom: 184px;
+  display: flex;
+  box-sizing: border-box;  
+  /*flex-wrap: nowrap;*/
+}
+
+@media screen and (max-width: 1075px) {
+  .about-vr {
+    flex-direction: column;
+    margin: 96px 0;
+    align-items: center;
+    /*padding-left: 24px;
+    padding-right: 24px;*/
+  }
+}

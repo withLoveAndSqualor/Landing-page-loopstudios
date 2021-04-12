@@ -1,0 +1,35 @@
+.creations__button {
+  
+  align-self: center;
+  font-family: 'Alata', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 0;
+}
+
+.creations__button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+@media screen and (max-width: 1075px) {
+  .creations__button {
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .creations__button {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 5px;
+  }
+}

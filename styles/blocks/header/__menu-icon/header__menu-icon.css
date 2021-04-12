@@ -1,0 +1,18 @@
+.header__menu-icon {
+  width: 24px;
+  height: 16px;
+  background-image: url(../../../../images/menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+}
+
+.header__menu-icon:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__menu-icon {
+    display: unset;
+  }
+}

@@ -1,0 +1,11 @@
+.footer__menu-container {
+  width: 380px;
+  max-width: 30%;
+}
+
+@media screen and (max-width: 959px) {
+  .footer__menu-container  {
+    padding-top: 32px;
+    padding-bottom: 48px;
+  }
+}

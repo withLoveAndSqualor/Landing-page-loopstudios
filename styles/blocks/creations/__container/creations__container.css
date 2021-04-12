@@ -1,0 +1,17 @@
+.creations__container {
+  width: 100%;
+  display: grid;
+  /*grid-template-columns: repeat(auto-fit, minmax(256px, 327px));*/
+  grid-template-columns: repeat(auto-fit, 256px);
+  grid-template-rows: 450px;
+  grid-gap: 30px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+  .creations__container {
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+    grid-template-rows: 120px;
+  }
+}

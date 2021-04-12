@@ -1,0 +1,35 @@
+@import url(./__logo/footer__logo.css);
+@import url(./__menu-item/footer__menu-item.css);
+@import url(./__menu-link/footer__menu-link.css);
+@import url(./__sm-container/footer__sm-container.css);
+@import url(./__sm-list/footer__sm-list.css);
+@import url(./__sm-icon/footer__sm-icon.css);
+@import url(./__sm-icon/_fb/footer__sm-icon_fb.css);
+@import url(./__sm-icon/_twit/footer__sm-icon_twit.css);
+@import url(./__sm-icon/_pinterest/footer__sm-icon_pinterest.css);
+@import url(./__sm-icon/_inst/footer__sm-icon_inst.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__sm-link/footer__sm-link.css);
+@import url(./__menu-container/footer__menu-container.css);
+@import url(./__menu-list/footer__menu-list.css);
+
+.footer {
+  box-sizing: border-box;
+  padding: 44px 165px 33px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 160px;
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 959px) {
+  .footer {
+    height: fit-content;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 56px 0;
+  }
+}
