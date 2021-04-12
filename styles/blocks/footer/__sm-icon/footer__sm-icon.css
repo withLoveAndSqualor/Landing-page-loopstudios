@@ -1,0 +1,24 @@
+.footer__sm-icon {
+  width: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.footer__sm-icon::after {
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 2px;      
+  position: absolute;
+  bottom: -5px;
+  /*left: 50%;
+  transform: translateX(-50%);*/
+}
+
+.footer__sm-icon:hover {
+  color: #ffffff;
+}
+
+.footer__sm-icon:hover:after {
+  background-color:  #ffffff;
+}

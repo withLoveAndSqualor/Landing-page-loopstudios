@@ -1,0 +1,23 @@
+.about-vr__pic {  
+  max-width: 731px;
+  /*width: 50.76%;*/
+  height: auto;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1075px) {
+  .about-vr__pic {
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .about-vr__pic {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

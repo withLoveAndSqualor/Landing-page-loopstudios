@@ -1,0 +1,9 @@
+.creations__creation-title {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 640px) {
+  .creations__creation-title {
+    max-width: 50%;
+  }
+}

@@ -1,0 +1,14 @@
+.footer__sm-container {
+  align-self: flex-end;
+  height: 24px;
+  width: 144px;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 959px) {
+  .footer__sm-container {
+    align-self: unset;
+    margin-bottom: 16px;
+  }
+}

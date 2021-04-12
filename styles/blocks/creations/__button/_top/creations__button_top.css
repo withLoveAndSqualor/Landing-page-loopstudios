@@ -1,0 +1,19 @@
+.creations__button_top {
+  width: 157px;
+  max-width: 157px;
+  height: 40px;
+}
+
+@media screen and (max-width: 1075px) {
+  .creations__button_top {    
+    width: unset;
+    box-sizing: border-box;
+    padding: 13px 38px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .creations__button_top {
+    display: none;
+  }
+}

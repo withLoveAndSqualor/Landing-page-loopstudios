@@ -1,0 +1,11 @@
+.main-section {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 160px 162px 184px 164px;
+}
+
+@media screen and (max-width: 1075px) {
+  .main-section {
+    padding: 0 0 96px;
+  }
+}

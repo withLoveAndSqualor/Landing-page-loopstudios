@@ -1,0 +1,29 @@
+@import url(./__header/creations__header.css);
+@import url(./__button/creations__button.css);
+@import url(./__container/creations__container.css);
+@import url(./__item/creations__item.css);
+@import url(./__item/_earth/creations__item_earth.css);
+@import url(./__item/_arcade/creations__item_arcade.css);
+@import url(./__item/_soccer/creations__item_soccer.css);
+@import url(./__item/_grid/creations__item_grid.css);
+@import url(./__item/_from-up/creations__item_from-up.css);
+@import url(./__item/_borealis/creations__item_borealis.css);
+@import url(./__item/_curiosity/creations__item_curiosity.css);
+@import url(./__item/_fisheye/creations__item_fisheye.css);
+@import url(./__creation-title/creations__creation-title.css);
+@import url(./__button/_bottom/creations__button_bottom.css);
+@import url(./__button/_top/creations__button_top.css);
+@import url(./__headline/creations__headline.css);
+
+.creations {
+  margin: 0;
+}
+
+@media screen and (max-width: 1075px) {
+  .creations {
+    padding-left: 6.4%;
+    padding-right: 6.4%;
+    display: flex;
+    flex-direction: column;
+  }
+}
